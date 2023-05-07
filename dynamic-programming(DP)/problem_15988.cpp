@@ -1,4 +1,3 @@
-/*
 //
 // Created by cho on 23. 5. 7.
 // Top-Down, Bottom-Up: https://to-be-great-organizer.tistory.com/102
@@ -21,11 +20,11 @@ ll fdp(int num){
 
 int main(){
     cin >> T;
+    fill(dp + 3, dp + 1000001, -1);
     while (T--){
-        fill(dp + 3, dp + 1000001, -1);
         cin >> n;
         cout << fdp(n) << "\n";
     }
 
     return 0;
-}*/
+}
